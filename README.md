@@ -4,22 +4,25 @@
 
 ## 下载与安装
 
-从 [v0.0.1 Releases](https://github.com/MhcChampion/bazaarBot-Mobile/releases/tag/v0.0.1) 下载两个 `.apk.part001` / `.apk.part002` 分卷和 `Merge-APK-v0.0.1.ps1`，放到同一目录。Windows 在该目录运行：
+从 [v0.0.1-r2 Releases](https://github.com/MhcChampion/bazaarBot-Mobile/releases/tag/v0.0.1-r2) 下载两个 `.apk.part001` / `.apk.part002` 分卷和 `Merge-APK-v0.0.1-r2.ps1`，放到同一目录。Windows 在该目录运行：
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\Merge-APK-v0.0.1.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\Merge-APK-v0.0.1-r2.ps1
 ```
 
-脚本逐卷校验 SHA-256，再合并出 `The Bazaar - bazaarBot Mobile-v0.0.1.apk`，不会修改签名。把生成的 APK 传到 Android 手机安装。请为合并预留约 3 GB 的额外磁盘空间；单独的分卷无法安装。Linux/macOS 可按编号用 `cat` 合并，然后按 Release 提供的 SHA-256 校验。
+脚本逐卷校验 SHA-256，再合并出 `The Bazaar - bazaarBot Mobile-v0.0.1-r2.apk`，不会修改签名。把生成的 APK 传到 Android 手机安装。请为合并预留约 3 GB 的额外磁盘空间；单独的分卷无法安装。Linux/macOS 可按编号用 `cat` 合并，然后按 Release 提供的 SHA-256 校验。
 
 | 项目 | 当前值 |
 | --- | --- |
 | 应用名称 | The Bazaar - bazaarBot Mobile |
 | 独立包名 | `com.tempogames.thebazaar.bazaarbotmobile` |
-| 版本名 / 版本码 | `0.0.1` / `1` |
-| APK 文件名 | `The Bazaar - bazaarBot Mobile-v0.0.1.apk` |
+| Android 版本名 / 版本码 | `1.0.12825-production-android-d9601ded` / `12825` |
+| 插件版本 / 安装包修订 | `0.0.1` / `r2` |
+| APK 文件名 | `The Bazaar - bazaarBot Mobile-v0.0.1-r2.apk` |
 
 独立包与官方应用使用不同应用 ID，可并存安装，不覆盖官方应用。首次启动需要**单独登录**；不会复制另一应用的账号会话、缓存或设置。已验证独立包启动和插件导航；账号登录、购买、签名绑定服务及真实对局仍需进一步验证。
+
+应用商店不会因版本号相同而把独立包识别为官方应用；本包仍需随官方客户端更新重新适配、打包。资源热更新保留游戏原流程，未来实际更新尚未验收。详见 [版本与更新说明](mobilebpp/docs/VERSIONING.md)。
 
 ## 当前功能与边界
 
@@ -55,10 +58,10 @@ pwsh -NoProfile -File mobilebpp\build.ps1
 pwsh -NoProfile -File mobilebpp\tools\release.ps1 -ChecksOnly
 
 # 编译、注入、独立包重打包、签名及 APK 检查
-pwsh -NoProfile -File mobilebpp\tools\release.ps1 -Version v0.0.1
+pwsh -NoProfile -File mobilebpp\tools\release.ps1 -Version v0.0.1-r2
 ```
 
-APK 输出到 `out/The Bazaar - bazaarBot Mobile-v0.0.1.apk`。签名脚本在本地创建 `mobilebpp/build/bpp.keystore`；自行构建应保管自己的密钥，更新安装需要沿用同一签名。仓库不提供发行签名密钥。
+APK 输出到 `out/The Bazaar - bazaarBot Mobile-v0.0.1-r2.apk`。`-Version` 标记插件发行文件名；Android 版本自动继承输入的官方 APK。签名脚本在本地创建 `mobilebpp/build/bpp.keystore`；自行构建应保管自己的密钥，更新安装需要沿用同一签名。仓库不提供发行签名密钥。
 
 配置入口为 [mobilebpp/config.ps1](mobilebpp/config.ps1)：`BPP_ROOT` 可覆盖项目根目录，`BPP_STAGE` 可覆盖临时构建目录；未设置工具变量时，脚本使用项目根目录下的 `tools/` 默认位置。
 

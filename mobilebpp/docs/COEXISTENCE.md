@@ -1,14 +1,16 @@
 # 独立包 v0.0.1
 
+v0.0.1-r2：Android 版本已恢复为底包原始值，插件版本保持 0.0.1。应用商店升级与资源热更新的边界见 [VERSIONING.md](VERSIONING.md)。
+
 2026-10-23：按用户要求搁置社区接入，十胜自动记录开关默认关闭，保留后续手动开启本机记录的能力。关注与阵容悬浮窗维持原有默认值。手机原同包安装中的记录开关也已关闭。
 
 | 项目 | 值 |
 | --- | --- |
 | 应用名 | The Bazaar - bazaarBot Mobile |
 | Android applicationId | `com.tempogames.thebazaar.bazaarbotmobile` |
-| Android versionName / versionCode | `0.0.1` / `1` |
+| Android versionName / versionCode | `1.0.12825-production-android-d9601ded` / `12825` |
 | 插件状态版本 | `0.0.1` |
-| APK | `out/The Bazaar - bazaarBot Mobile-v0.0.1.apk` |
+| APK | `out/The Bazaar - bazaarBot Mobile-v0.0.1-r2.apk` |
 | 原版 applicationId | `com.tempogames.thebazaar` |
 
 应用 ID、Provider authorities、自定义权限及相关引用采用独立标识；游戏实际 Java 类名和资源保持正确引用。Manifest 应用及启动入口标签追加插件名。构建使用原始官方 APK 为输入，经现有 Mod 密钥签名；没有把官方签名冒充为本项目签名。
@@ -19,7 +21,7 @@
 
 ## 构建与调试
 
-`tools/release.ps1` 默认输出上述独立包与名称，支持显式指定版本、版本码、应用名和包名。`tools/verify_apk.py` 用独立 aapt 解析核对 Manifest 身份与资源包命名空间，并保留原来的库、ELF和对齐检查。`tools/apk_identity.py` 定点编辑二进制 Manifest，同时同步 `resources.arsc` 包头的固定包名字段，保持所有资源 ID 和其他资源内容不变；不全局替换 Dex 中的类名。
+`tools/release.ps1` 默认输出上述独立包与名称，支持显式指定插件发行文件名、应用名和包名；Android 版本字段继承官方输入 APK。`tools/verify_apk.py` 用独立 aapt 解析核对 Manifest 身份与资源包命名空间，并保留原来的库、ELF和对齐检查。`tools/apk_identity.py` 定点编辑二进制 Manifest，同时同步 `resources.arsc` 包头的固定包名字段，保持所有资源 ID 和其他资源内容不变；不全局替换 Dex 中的类名。
 
 第一次候选只改 Manifest，导致 Unity 按当前包名查找启动字符串时得到资源 ID 0 并崩溃。已同步资源包命名空间，并加入原始 APK 资源 ID 保持及独立 aapt 核验，最终交付必须以修复后的 APK 和新进程验收为准。
 

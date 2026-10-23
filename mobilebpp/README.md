@@ -1,5 +1,7 @@
 # bazaarBot Mobile（大巴扎手机版）
 
+> **2026-10-23 · v0.0.1-r2 版本号修正**：Android versionName / versionCode 自动继承官方底包，当前为 `1.0.12825-production-android-d9601ded` / `12825`；插件版本仍为 `0.0.1`。独立包名和签名保持原样；不因此获得商店官方更新资格。见 [VERSIONING.md](docs/VERSIONING.md)。
+
 > **2026-10-23 · 当前独立包 v0.0.1**：社区接入按用户要求搁置，十胜自动记录默认关闭，手机旧包中的对应开关也已关闭；关注和悬浮窗继续默认开启。应用名为 **The Bazaar - bazaarBot Mobile**，包名 `com.tempogames.thebazaar.bazaarbotmobile`，与原版应用 ID 分开。已安装并验证新旧包不同 UID 共存、新包启动及重启、设置和插件导航；14 项 Python、23 项 Node/MCP 与 release 检查通过。新包需独立登录，登录、购买与真实对局尚未验收；旧槽位目前仍是历史同包 Mod，未卸载或清数据。见 [独立包说明](docs/COEXISTENCE.md) 与 `out/delivery-audit-v0.0.1.json`。
 
 > **2026-10-23 · 历史版本 v0.101**：关注阵容在十胜推荐顶部独立置顶并高亮，分页、筛选、加载失败仍可取消；列表内点关注后立即定位到置顶项，取消恢复原顺序。本机十胜记录改为有效 PNG 完成后去重，失败限次重试，避免截图漏存。20 项 Node/MCP、10 项离线原生记录场景、release 与真机置顶／取消检查通过。真实十胜自动触发仍待验收，社区上传尚未接通。见 `docs/RECORDING.md`、`out/delivery-audit-v0.101.json`。

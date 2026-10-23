@@ -3,7 +3,6 @@ param(
   [string]$Version = "v0.0.1",
   [string]$PackageName = "com.tempogames.thebazaar.bazaarbotmobile",
   [string]$AppLabel = "The Bazaar - bazaarBot Mobile",
-  [int]$VersionCode = 1,
   [switch]$UseLibmain,     # fallback injection target (libmain.so instead of libil2cpp.so)
   [switch]$SkipBuild,
   [switch]$ChecksOnly
@@ -57,13 +56,15 @@ if ($LASTEXITCODE -ne 0) { throw "ELF verification failed" }
 if ($LASTEXITCODE -ne 0) { throw "libbpp ELF verification failed" }
 
 Write-Host "== 4/5 repack + sign"
-& $py (Join-Path $root "mobilebpp\tools\patch_apk.py") --apk $apk --lib (Join-Path $root "mobilebpp\build\libbpp.so") @patchArg --out $unsigned --package-name $PackageName --app-label $AppLabel --version-name ($Version -replace '^v', '') --version-code $VersionCode
+# $Version labels the plugin release artifact. Android version fields belong to
+# the game and are preserved from the input APK, including versionCodeMajor.
+& $py (Join-Path $root "mobilebpp\tools\patch_apk.py") --apk $apk --lib (Join-Path $root "mobilebpp\build\libbpp.so") @patchArg --out $unsigned --package-name $PackageName --app-label $AppLabel
 if ($LASTEXITCODE -ne 0) { throw "repack failed" }
 & pwsh -NoProfile -File (Join-Path $root "mobilebpp\tools\sign_apk.ps1") -In $unsigned -Out $out
 if ($LASTEXITCODE -ne 0) { throw "sign failed" }
 
 Write-Host "== 5/5 verify APK"
-& $py (Join-Path $root "mobilebpp\tools\verify_apk.py") --apk $out --expect-lib libbpp.so --expect-package $PackageName --expect-label $AppLabel --expect-version-name ($Version -replace '^v', '') --expect-version-code $VersionCode
+& $py (Join-Path $root "mobilebpp\tools\verify_apk.py") --apk $out --expect-lib libbpp.so --expect-package $PackageName --expect-label $AppLabel --expect-game-version-from $apk
 if ($LASTEXITCODE -ne 0) { throw "APK verification failed" }
 Remove-Item $unsigned -Force -ErrorAction SilentlyContinue
 

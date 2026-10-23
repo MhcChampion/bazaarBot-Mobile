@@ -253,6 +253,26 @@ class OfficialManifestTests(unittest.TestCase):
         allowed = set(changed)
         self.assertTrue(all(a == b for i, (a, b) in enumerate(zip(self.resources, result)) if i not in allowed))
 
+    def test_clone_without_version_overrides_preserves_official_android_version(self):
+        before = apk_identity.BinaryManifest(self.original)
+        result = apk_identity.patch_manifest(self.original, package_name=NEW_PACKAGE,
+                                             app_label='The Bazaar - bazaarBot Mobile')
+        after = apk_identity.BinaryManifest(result)
+        self.assertEqual(after.package, NEW_PACKAGE)
+        for name in ('versionName', 'versionCode', 'versionCodeMajor'):
+            old, new = before.root.get(name), after.root.get(name)
+            self.assertEqual(old is None, new is None)
+            if old is not None:
+                self.assertEqual((old.data_type, old.value), (new.data_type, new.value))
+        # This is the actual release-script path: rename the clone but do not
+        # substitute the plugin artifact version for the game's Android version.
+        release_script = (ROOT / 'mobilebpp/tools/release.ps1').read_text(encoding='utf8')
+        patch_line = next(line for line in release_script.splitlines()
+                          if line.startswith('& $py ') and 'patch_apk.py' in line)
+        self.assertNotIn('--version-name', patch_line)
+        self.assertNotIn('--version-code', patch_line)
+        self.assertIn('--expect-game-version-from $apk', release_script)
+
     def test_real_manifest_has_no_shared_uid_or_uri_callback_to_rewrite(self):
         manifest = apk_identity.BinaryManifest(self.original)
         self.assertIsNone(manifest.root.get('sharedUserId'))

@@ -31,13 +31,27 @@ def main():
     ap.add_argument("--expect-label")
     ap.add_argument("--expect-version-name")
     ap.add_argument("--expect-version-code", type=int)
+    ap.add_argument("--expect-game-version-from", help="reference APK whose Android version fields must be preserved")
     args = ap.parse_args()
 
     problems = []
     expected = {'package': args.expect_package, 'label': args.expect_label,
                 'version_name': args.expect_version_name, 'version_code': args.expect_version_code}
-    if any(value is not None for value in expected.values()):
+    if args.expect_game_version_from or any(value is not None for value in expected.values()):
         aapt = Path(__file__).resolve().parents[2] / 'tools/buildtools/android-15/aapt.exe'
+        if args.expect_game_version_from:
+            source_apk = Path(args.expect_game_version_from).resolve()
+            source = subprocess.run([str(aapt), 'dump', 'badging', source_apk.name], cwd=source_apk.parent,
+                                    capture_output=True, encoding='utf-8', errors='replace')
+            version = re.search(r"^package: name='[^']+' versionCode='([0-9]+)' versionName='([^']*)'", source.stdout, re.M)
+            if source.returncode or not version:
+                problems.append('aapt could not resolve reference game version')
+            else:
+                for key, value in [('version_code', int(version[1])), ('version_name', version[2])]:
+                    if expected[key] is not None and expected[key] != value:
+                        problems.append(f'{key}: explicit expectation conflicts with reference game APK')
+                    expected[key] = value
+                print('reference game version:', {key: expected[key] for key in ['version_name', 'version_code']})
         apk_path = Path(args.apk).resolve()
         result = subprocess.run([str(aapt), 'dump', 'badging', apk_path.name], cwd=apk_path.parent,
                                 capture_output=True, encoding='utf-8', errors='replace')
