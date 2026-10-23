@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<style>/*BPP_CSS*/</style></head>
+<body data-open="false" data-mode="side">
+<button id="launcher" aria-label="展开 bazaarBot Mobile"><span class="edge-arrow" aria-hidden="true"></span></button>
+<div id="mini-board" hidden role="button" tabindex="0" aria-label="显示或收起阵容技能；长按拖到左侧收回"></div>
+<button id="backdrop" aria-label="点击框外收起面板" tabindex="-1"></button>
+<button id="collapse" aria-label="收起面板"><span class="edge-arrow" aria-hidden="true"></span></button>
+<div id="panel-surface" aria-hidden="true"></div>
+<main id="panel">
+  <header><strong>bazaarBot Mobile</strong></header>
+  <nav id="tabs" aria-label="功能"><button data-tab="board" class="on">阵容</button><button data-tab="speed">加速</button><button data-tab="settings">设置</button><button data-tab="diag">诊断</button></nav>
+  <div id="panel-scroll">
+  <div id="notice" role="status"></div>
+  <section id="board-page">
+    <div id="run-summary" class="muted"></div><div id="inventory"></div><div id="companion-shortcut"></div>
+    <div class="section-head"><h2>十胜阵容</h2><button id="clear-selection" hidden>清除选择</button></div>
+    <div id="recommendations"></div>
+    <details id="search-tools"><summary>查找卡牌</summary><div class="search-row"><input id="query" placeholder="中文 / 英文 / 标签" aria-label="搜索全部卡牌" autocomplete="off" enterkeyhint="search"><button id="hide-keyboard" aria-label="收起键盘">完成</button></div><div id="results"></div></details>
+  </section>
+  <section id="speed-page" hidden><h2>游戏速度</h2><div id="speed-buttons" class="controls"><button data-speed="1">1x</button><button data-speed="2">2x</button><button data-speed="3">3x</button><button data-speed="0">暂停</button><button id="resume">恢复</button></div><p id="speed-state" class="muted"></p><p class="muted">自动记住所选倍速，战斗结束或进入下一场后继续生效；游戏自身暂停和结算慢动作保留。</p></section>
+  <section id="detail-page" hidden><div class="section-head"><button id="detail-back">‹ 返回</button><div id="detail-actions"></div></div><div id="run-detail"></div></section>
+  <section id="settings-page" hidden><h2>悬浮窗地毯</h2><div id="carpet-selection"></div><h2>阵容助手</h2><label class="setting"><span>阵容悬浮窗<small>轻点显示技能，长按移动，拖到左侧收回</small></span><input id="pref-floating" type="checkbox" checked></label><label class="setting"><span>关注提醒<small>标记当前关注阵容中的物品和技能</small></span><input id="pref-follow" type="checkbox" checked></label><label class="setting"><span>十胜自动记录（暂缓）<small>社区接入暂缓；开启后十胜截图、棋盘和技能仅保存到本机</small></span><input id="pref-upload" type="checkbox"></label><p id="upload-status" class="muted">社区接入暂缓。开启本机记录后，十胜数据只保存在设备上。</p><h2>收起后的显示方式</h2><div class="controls"><button data-mode="side">侧边把手</button><button data-mode="bubble">悬浮球</button></div><p class="muted">自动保存，下次启动仍使用此方式。启动时保持收起。</p></section>
+  <section id="diag-page" hidden><h2>运行状态</h2><div id="diagnostics" class="muted">等待游戏状态…</div><div class="controls"><button id="dump">导出数据</button><button id="refresh">刷新状态</button></div></section>
+  </div>
+</main>
+<script>const CARDS=/*BPP_CARDS*/; const CARD_FRAMES=/*BPP_FRAMES*/; const GAME_THEME=/*BPP_THEME*/;</script>
+<script>/*BPP_JS*/</script></body></html>

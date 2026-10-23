@@ -1,0 +1,22 @@
+{
+  "version": "0.0.1",
+  "application_label": "The Bazaar - bazaarBot Mobile",
+  "package": "com.tempogames.thebazaar.bazaarbotmobile",
+  "version_code": 1,
+  "apk_name": "The Bazaar - bazaarBot Mobile-v0.0.1.apk",
+  "apk_bytes": 2988960981,
+  "apk_sha256": "71a27f579f6d01ea0f02d0fdf39f388be1ae6805500bf60b515ba1ed2a8e4a20",
+  "format": "raw-apk-parts",
+  "parts": [
+    {
+      "name": "The-Bazaar-bazaarBot-Mobile-v0.0.1.apk.part001",
+      "bytes": 1610612736,
+      "sha256": "26548e78f1565d23b2bbfd010519202ed30f41a955fad2a264d7bc4b42ebeb84"
+    },
+    {
+      "name": "The-Bazaar-bazaarBot-Mobile-v0.0.1.apk.part002",
+      "bytes": 1378348245,
+      "sha256": "f7fd3a5f71bd9c184fafc6da6691f518849f9bd87b4cc54a0ab02a3ad242d62c"
+    }
+  ]
+}

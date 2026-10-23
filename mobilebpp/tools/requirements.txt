@@ -1,0 +1,6 @@
+lief==1.0.0
+pyelftools==0.33
+UnityPy==1.25.4
+Pillow==12.3.0
+numpy==2.3.5
+fonttools[woff]==4.67.0

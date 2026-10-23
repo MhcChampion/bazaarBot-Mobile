@@ -1,0 +1,156 @@
+{
+  "source": "assets/aa/Android/cardframes_assets_all.bundle",
+  "projection": "orthographic X/Z, original mesh UV and diffuse",
+  "frames": {
+    "bronze-l.webp": {
+      "width": 4.92007231,
+      "height": 3.30651605,
+      "aspect": 1.487992870925275,
+      "mesh": "CardFrame_Bronze_L",
+      "pixels": [
+        595,
+        400
+      ]
+    },
+    "bronze-m.webp": {
+      "width": 3.2795486499999997,
+      "height": 3.30651605,
+      "aspect": 0.991844164796962,
+      "mesh": "CardFrame_Bronze_M",
+      "pixels": [
+        397,
+        400
+      ]
+    },
+    "bronze-s.webp": {
+      "width": 1.65045464,
+      "height": 3.30651605,
+      "aspect": 0.49915216349849567,
+      "mesh": "CardFrame_Bronze_S",
+      "pixels": [
+        200,
+        400
+      ]
+    },
+    "diamond-l.webp": {
+      "width": 4.92038679,
+      "height": 3.4225706999999996,
+      "aspect": 1.4376289699435576,
+      "mesh": "CardFrame_Diamond_L",
+      "pixels": [
+        575,
+        400
+      ]
+    },
+    "diamond-m.webp": {
+      "width": 3.27956534,
+      "height": 3.4225706999999996,
+      "aspect": 0.958216974159219,
+      "mesh": "CardFrame_Diamond_M",
+      "pixels": [
+        383,
+        400
+      ]
+    },
+    "diamond-s.webp": {
+      "width": 1.658388615,
+      "height": 3.4225706999999996,
+      "aspect": 0.48454473562810557,
+      "mesh": "CardFrame_Diamond_S",
+      "pixels": [
+        194,
+        400
+      ]
+    },
+    "gold-l.webp": {
+      "width": 4.919771669999999,
+      "height": 3.4298333000000003,
+      "aspect": 1.4344054767909562,
+      "mesh": "CardFrame_Gold_L",
+      "pixels": [
+        574,
+        400
+      ]
+    },
+    "gold-m.webp": {
+      "width": 3.27867782,
+      "height": 3.4298333000000003,
+      "aspect": 0.9559292050724447,
+      "mesh": "CardFrame_Gold_M",
+      "pixels": [
+        382,
+        400
+      ]
+    },
+    "gold-s.webp": {
+      "width": 1.650548041,
+      "height": 3.4323664899999997,
+      "aspect": 0.48087756532082915,
+      "mesh": "CardFrame_Gold_S",
+      "pixels": [
+        192,
+        400
+      ]
+    },
+    "legendary-l.webp": {
+      "width": 4.91659427,
+      "height": 3.48331284,
+      "aspect": 1.411470773896955,
+      "mesh": "CardFrame_Legendary_L",
+      "pixels": [
+        565,
+        400
+      ]
+    },
+    "legendary-m.webp": {
+      "width": 3.27839839,
+      "height": 3.48331284,
+      "aspect": 0.9411725390705935,
+      "mesh": "CardFrame_Legendary_M",
+      "pixels": [
+        376,
+        400
+      ]
+    },
+    "legendary-s.webp": {
+      "width": 1.650456548,
+      "height": 3.48331284,
+      "aspect": 0.4738180645296275,
+      "mesh": "CardFrame_Legendary_S",
+      "pixels": [
+        190,
+        400
+      ]
+    },
+    "silver-l.webp": {
+      "width": 4.92032719,
+      "height": 3.36598384,
+      "aspect": 1.461779801652286,
+      "mesh": "CardFrame_Silver_L",
+      "pixels": [
+        585,
+        400
+      ]
+    },
+    "silver-m.webp": {
+      "width": 3.27952993,
+      "height": 3.36598384,
+      "aspect": 0.9743154114489152,
+      "mesh": "CardFrame_Silver_M",
+      "pixels": [
+        390,
+        400
+      ]
+    },
+    "silver-s.webp": {
+      "width": 1.648332476,
+      "height": 3.36598384,
+      "aspect": 0.4897030272135828,
+      "mesh": "CardFrame_Silver_S",
+      "pixels": [
+        196,
+        400
+      ]
+    }
+  }
+}

@@ -1,0 +1,1088 @@
+{
+  "source": "TheBazaar.apk",
+  "carpets": [
+    {
+      "id": "carpet_1",
+      "name": "Aspirations",
+      "file": "carpet_1.webp",
+      "bundle": "assets/aa/Android/carpet_1_assets_all.bundle",
+      "texture": "Carpet_1_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_2",
+      "name": "Seal of Qomatz",
+      "file": "carpet_2.webp",
+      "bundle": "assets/aa/Android/carpet_2_assets_all.bundle",
+      "texture": "Carpet_2_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_3",
+      "name": "Ancient Memories",
+      "file": "carpet_3.webp",
+      "bundle": "assets/aa/Android/carpet_3_assets_all.bundle",
+      "texture": "Carpet_3_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_anniversary_02",
+      "name": "Happy Birthday Bazaar",
+      "file": "carpet_anniversary_02.webp",
+      "bundle": "assets/aa/Android/carpet_anniversary_02_assets_all.bundle",
+      "texture": "Carpet_Anniversary_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_anniversary_mosaic",
+      "name": "Founding Day Fireworks",
+      "file": "carpet_anniversary_mosaic.webp",
+      "bundle": "assets/aa/Android/carpet_anniversary_mosaic_assets_all.bundle",
+      "texture": "Carpet_Anniversary_Mosaic_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_autumn_rnd",
+      "name": "Eden Harvest",
+      "file": "carpet_autumn_rnd.webp",
+      "bundle": "assets/aa/Android/carpet_autumn_rnd_assets_all.bundle",
+      "texture": "Carpet_Autumn_RND_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_baddreams",
+      "name": "Bad Dreams",
+      "file": "carpet_baddreams.webp",
+      "bundle": "assets/aa/Android/carpet_baddreams_assets_all.bundle",
+      "texture": "Carpet_BadDreams_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_burstofpetals",
+      "name": "Spring Breeze",
+      "file": "carpet_burstofpetals.webp",
+      "bundle": "assets/aa/Android/carpet_burstofpetals_assets_all.bundle",
+      "texture": "Carpet_BurstOfPetals_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_city_1",
+      "name": "Tower District",
+      "file": "carpet_city_1.webp",
+      "bundle": "assets/aa/Android/carpet_city_1_assets_all.bundle",
+      "texture": "Carpet_City_1_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_city_2",
+      "name": "River District",
+      "file": "carpet_city_2.webp",
+      "bundle": "assets/aa/Android/carpet_city_2_assets_all.bundle",
+      "texture": "Carpet_City_2_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_city_3",
+      "name": "Roughtown Market",
+      "file": "carpet_city_3.webp",
+      "bundle": "assets/aa/Android/carpet_city_3_assets_all.bundle",
+      "texture": "Carpet_City_3_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_cute_01",
+      "name": "All Friends Here",
+      "file": "carpet_cute_01.webp",
+      "bundle": "assets/aa/Android/carpet_cute_01_assets_all.bundle",
+      "texture": "Carpet_Cute_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_cute_02",
+      "name": "Processional",
+      "file": "carpet_cute_02.webp",
+      "bundle": "assets/aa/Android/carpet_cute_02_assets_all.bundle",
+      "texture": "Carpet_Cute_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_cute_03",
+      "name": "Young Royal",
+      "file": "carpet_cute_03.webp",
+      "bundle": "assets/aa/Android/carpet_cute_03_assets_all.bundle",
+      "texture": "Carpet_Cute_03_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_cute_04",
+      "name": "Springtime Palace",
+      "file": "carpet_cute_04.webp",
+      "bundle": "assets/aa/Android/carpet_cute_04_assets_all.bundle",
+      "texture": "Carpet_Cute_04_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_dancefloor",
+      "name": "Dance Floor",
+      "file": "carpet_dancefloor.webp",
+      "bundle": "assets/aa/Android/carpet_dancefloor_assets_all.bundle",
+      "texture": "Carpet_DanceFloor_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_doo_01",
+      "name": "Roboid Honor",
+      "file": "carpet_doo_01.webp",
+      "bundle": "assets/aa/Android/carpet_doo_01_assets_all.bundle",
+      "texture": "Carpet_DOO_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_doo_02",
+      "name": "DUL 2 D",
+      "file": "carpet_doo_02.webp",
+      "bundle": "assets/aa/Android/carpet_doo_02_assets_all.bundle",
+      "texture": "Carpet_DOO_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_feather_01",
+      "name": "Sky Guardian Captain",
+      "file": "carpet_feather_01.webp",
+      "bundle": "assets/aa/Android/carpet_feather_01_assets_all.bundle",
+      "texture": "Carpet_Feather_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_feather_02",
+      "name": "Boreal Guardian",
+      "file": "carpet_feather_02.webp",
+      "bundle": "assets/aa/Android/carpet_feather_02_assets_all.bundle",
+      "texture": "Carpet_Feather_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_feather_03",
+      "name": "Ceremonial",
+      "file": "carpet_feather_03.webp",
+      "bundle": "assets/aa/Android/carpet_feather_03_assets_all.bundle",
+      "texture": "Carpet_Feather_03_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_founderspack",
+      "name": "founderspack",
+      "file": "carpet_founderspack.webp",
+      "bundle": "assets/aa/Android/carpet_founderspack_assets_all.bundle",
+      "texture": "Carpet_FoundersPack_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_glamor_01",
+      "name": "The Dunes",
+      "file": "carpet_glamor_01.webp",
+      "bundle": "assets/aa/Android/carpet_glamor_01_assets_all.bundle",
+      "texture": "Carpet_Glamor_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_glamor_02",
+      "name": "Scales of Illusion",
+      "file": "carpet_glamor_02.webp",
+      "bundle": "assets/aa/Android/carpet_glamor_02_assets_all.bundle",
+      "texture": "Carpet_Glamor_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_glamor_03",
+      "name": "Glimmering Mirage",
+      "file": "carpet_glamor_03.webp",
+      "bundle": "assets/aa/Android/carpet_glamor_03_assets_all.bundle",
+      "texture": "Carpet_Glamor_03_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_green_01",
+      "name": "Sylvan Weaving",
+      "file": "carpet_green_01.webp",
+      "bundle": "assets/aa/Android/carpet_green_01_assets_all.bundle",
+      "texture": "Carpet_Green_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_green_02",
+      "name": "Owl and Squirrel",
+      "file": "carpet_green_02.webp",
+      "bundle": "assets/aa/Android/carpet_green_02_assets_all.bundle",
+      "texture": "Carpet_Green_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_green_03",
+      "name": "Principles of Florampathy",
+      "file": "carpet_green_03.webp",
+      "bundle": "assets/aa/Android/carpet_green_03_assets_all.bundle",
+      "texture": "Carpet_Green_03_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_inneralcove",
+      "name": "Herma's Garden",
+      "file": "carpet_inneralcove.webp",
+      "bundle": "assets/aa/Android/carpet_inneralcove_assets_all.bundle",
+      "texture": "Carpet_InnerAlcove_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_jul_01",
+      "name": "Luxuriant",
+      "file": "carpet_jul_01.webp",
+      "bundle": "assets/aa/Android/carpet_jul_01_assets_all.bundle",
+      "texture": "Carpet_JUL_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_jul_02",
+      "name": "Gourmand",
+      "file": "carpet_jul_02.webp",
+      "bundle": "assets/aa/Android/carpet_jul_02_assets_all.bundle",
+      "texture": "Carpet_JUL_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_jungle_01",
+      "name": "Greenheart Guardian",
+      "file": "carpet_jungle_01.webp",
+      "bundle": "assets/aa/Android/carpet_jungle_01_assets_all.bundle",
+      "texture": "Carpet_Jungle_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_jungle_02",
+      "name": "Secrets Slumber",
+      "file": "carpet_jungle_02.webp",
+      "bundle": "assets/aa/Android/carpet_jungle_02_assets_all.bundle",
+      "texture": "Carpet_Jungle_02_D_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_jungle_03",
+      "name": "Lost Peoples",
+      "file": "carpet_jungle_03.webp",
+      "bundle": "assets/aa/Android/carpet_jungle_03_assets_all.bundle",
+      "texture": "Carpet_Jungle_03_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_jungle_04",
+      "name": "Minds in the Vines",
+      "file": "carpet_jungle_04.webp",
+      "bundle": "assets/aa/Android/carpet_jungle_04_assets_all.bundle",
+      "texture": "Carpet_Jungle_04_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_jungle_05",
+      "name": "Seal of the Guardian",
+      "file": "carpet_jungle_05.webp",
+      "bundle": "assets/aa/Android/carpet_jungle_05_assets_all.bundle",
+      "texture": "Carpet_Jungle_05_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_jungle_06",
+      "name": "Ancient Beasts",
+      "file": "carpet_jungle_06.webp",
+      "bundle": "assets/aa/Android/carpet_jungle_06_assets_all.bundle",
+      "texture": "Carpet_Jungle_06_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_laurelsroom",
+      "name": "Laurel's Room",
+      "file": "carpet_laurelsroom.webp",
+      "bundle": "assets/aa/Android/carpet_laurelsroom_assets_all.bundle",
+      "texture": "Carpet_LaurelsRoom_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_leather_01",
+      "name": "Sturdy Ambitions",
+      "file": "carpet_leather_01.webp",
+      "bundle": "assets/aa/Android/carpet_leather_01_assets_all.bundle",
+      "texture": "Carpet_Leather_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_leather_02",
+      "name": "All Eyes on Me",
+      "file": "carpet_leather_02.webp",
+      "bundle": "assets/aa/Android/carpet_leather_02_assets_all.bundle",
+      "texture": "Carpet_Leather_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_leather_03",
+      "name": "Get Cozy",
+      "file": "carpet_leather_03.webp",
+      "bundle": "assets/aa/Android/carpet_leather_03_assets_all.bundle",
+      "texture": "Carpet_Leather_03_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_mak_01",
+      "name": "Sylvan Scholar",
+      "file": "carpet_mak_01.webp",
+      "bundle": "assets/aa/Android/carpet_mak_01_assets_all.bundle",
+      "texture": "Carpet_MAK_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_mak_02",
+      "name": "A Quiet Life",
+      "file": "carpet_mak_02.webp",
+      "bundle": "assets/aa/Android/carpet_mak_02_assets_all.bundle",
+      "texture": "Carpet_MAK_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_mns_01",
+      "name": "Outlands Spiral",
+      "file": "carpet_mns_01.webp",
+      "bundle": "assets/aa/Android/carpet_mns_01_assets_all.bundle",
+      "texture": "Carpet_MNS_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_mns_02",
+      "name": "The Beyond",
+      "file": "carpet_mns_02.webp",
+      "bundle": "assets/aa/Android/carpet_mns_02_assets_all.bundle",
+      "texture": "Carpet_MNS_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_mns_03",
+      "name": "Steady Hand",
+      "file": "carpet_mns_03.webp",
+      "bundle": "assets/aa/Android/carpet_mns_03_assets_all.bundle",
+      "texture": "Carpet_MNS_03_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_mrc_01",
+      "name": "Traditional Luxuries",
+      "file": "carpet_mrc_01.webp",
+      "bundle": "assets/aa/Android/carpet_mrc_01_assets_all.bundle",
+      "texture": "Carpet_MRC_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_pelagosummer_01",
+      "name": "Coastal Currents",
+      "file": "carpet_pelagosummer_01.webp",
+      "bundle": "assets/aa/Android/carpet_pelagosummer_01_assets_all.bundle",
+      "texture": "Carpet_PelagoSummer_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_pelagosummer_02",
+      "name": "River Spirit",
+      "file": "carpet_pelagosummer_02.webp",
+      "bundle": "assets/aa/Android/carpet_pelagosummer_02_assets_all.bundle",
+      "texture": "Carpet_PelagoSummer_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_pelagosummer_03",
+      "name": "Smiling Shoals",
+      "file": "carpet_pelagosummer_03.webp",
+      "bundle": "assets/aa/Android/carpet_pelagosummer_03_assets_all.bundle",
+      "texture": "Carpet_PelagoSummer_03_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_pelagosummer_04",
+      "name": "Secret Currents",
+      "file": "carpet_pelagosummer_04.webp",
+      "bundle": "assets/aa/Android/carpet_pelagosummer_04_assets_all.bundle",
+      "texture": "Carpet_PelagoSummer_04_TD_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_pyg_01",
+      "name": "Cloudtop Regalia",
+      "file": "carpet_pyg_01.webp",
+      "bundle": "assets/aa/Android/carpet_pyg_01_assets_all.bundle",
+      "texture": "Carpet_PYG_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_pyg_02",
+      "name": "PYG 2 D",
+      "file": "carpet_pyg_02.webp",
+      "bundle": "assets/aa/Android/carpet_pyg_02_assets_all.bundle",
+      "texture": "Carpet_PYG_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_racing_01",
+      "name": "Fat Wallets",
+      "file": "carpet_racing_01.webp",
+      "bundle": "assets/aa/Android/carpet_racing_01_assets_all.bundle",
+      "texture": "Carpet_Racing_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_racing_02",
+      "name": "Run This Town",
+      "file": "carpet_racing_02.webp",
+      "bundle": "assets/aa/Android/carpet_racing_02_assets_all.bundle",
+      "texture": "Carpet_Racing_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_ranked_1_high",
+      "name": "Jabalian Chief",
+      "file": "carpet_ranked_1_high.webp",
+      "bundle": "assets/aa/Android/carpet_ranked_1_high_assets_all.bundle",
+      "texture": "Carpet_Ranked_1_High_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_ranked_1_low",
+      "name": "Jaballian Elder",
+      "file": "carpet_ranked_1_low.webp",
+      "bundle": "assets/aa/Android/carpet_ranked_1_low_assets_all.bundle",
+      "texture": "Carpet_Ranked_1_Low_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_ranked_2_high",
+      "name": "Korxena Noble",
+      "file": "carpet_ranked_2_high.webp",
+      "bundle": "assets/aa/Android/carpet_ranked_2_high_assets_all.bundle",
+      "texture": "Carpet_Ranked_2_High_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_ranked_2_low",
+      "name": "Korxena Corsair",
+      "file": "carpet_ranked_2_low.webp",
+      "bundle": "assets/aa/Android/carpet_ranked_2_low_assets_all.bundle",
+      "texture": "Carpet_Ranked_2_Low_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_s6_crystalglow",
+      "name": "Streamscape",
+      "file": "carpet_s6_crystalglow.webp",
+      "bundle": "assets/aa/Android/carpet_s6_crystalglow_assets_all.bundle",
+      "texture": "Carpet_S6_CrystalGlow_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_s6_hens",
+      "name": "Hen House",
+      "file": "carpet_s6_hens.webp",
+      "bundle": "assets/aa/Android/carpet_s6_hens_assets_all.bundle",
+      "texture": "Carpet_S6_Hens_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_s6_opossum",
+      "name": "S6 Opossum",
+      "file": "carpet_s6_opossum.webp",
+      "bundle": "assets/aa/Android/carpet_s6_opossum_assets_all.bundle",
+      "texture": "Carpet_S6_Opossum_TD_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_s6_patch",
+      "name": "S6 Patch",
+      "file": "carpet_s6_patch.webp",
+      "bundle": "assets/aa/Android/carpet_s6_patch_assets_all.bundle",
+      "texture": "Carpet_S6_Patch_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_sea_01",
+      "name": "Smooth Sailing",
+      "file": "carpet_sea_01.webp",
+      "bundle": "assets/aa/Android/carpet_sea_01_assets_all.bundle",
+      "texture": "Carpet_Sea_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_sea_02",
+      "name": "Mermaid's Treasure",
+      "file": "carpet_sea_02.webp",
+      "bundle": "assets/aa/Android/carpet_sea_02_assets_all.bundle",
+      "texture": "Carpet_Sea_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_sea_03",
+      "name": "Ocean's Honor",
+      "file": "carpet_sea_03.webp",
+      "bundle": "assets/aa/Android/carpet_sea_03_assets_all.bundle",
+      "texture": "Carpet_Sea_03_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_securityblanket",
+      "name": "Security Blanket",
+      "file": "carpet_securityblanket.webp",
+      "bundle": "assets/aa/Android/carpet_securityblanket_assets_all.bundle",
+      "texture": "Carpet_SecurityBlanket_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_sheep_01",
+      "name": "Bazaar Traditions",
+      "file": "carpet_sheep_01.webp",
+      "bundle": "assets/aa/Android/carpet_sheep_01_assets_all.bundle",
+      "texture": "Carpet_Sheep_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_sheep_02",
+      "name": "Modern Merchant",
+      "file": "carpet_sheep_02.webp",
+      "bundle": "assets/aa/Android/carpet_sheep_02_assets_all.bundle",
+      "texture": "Carpet_Sheep_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_sheep_03",
+      "name": "Carpe-sheep3 D",
+      "file": "carpet_sheep_03.webp",
+      "bundle": "assets/aa/Android/carpet_sheep_03_assets_all.bundle",
+      "texture": "Carpet_Sheep_03_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_source",
+      "name": "Source D",
+      "file": "carpet_source.webp",
+      "bundle": "assets/aa/Android/carpet_source_assets_all.bundle",
+      "texture": "Carpet_Source_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_spring_rnd",
+      "name": "Sylvan Daydream",
+      "file": "carpet_spring_rnd.webp",
+      "bundle": "assets/aa/Android/carpet_spring_rnd_assets_all.bundle",
+      "texture": "Carpet_Spring_RND_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_ste_blueprint",
+      "name": "Bazaarian Renaissance",
+      "file": "carpet_ste_blueprint.webp",
+      "bundle": "assets/aa/Android/carpet_ste_blueprint_assets_all.bundle",
+      "texture": "Carpet_STE_Blueprint_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_ste_butterfly",
+      "name": "Ingenuity",
+      "file": "carpet_ste_butterfly.webp",
+      "bundle": "assets/aa/Android/carpet_ste_butterfly_assets_all.bundle",
+      "texture": "Carpet_STE_Butterfly_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_ste_flags",
+      "name": "Parade of Dreams",
+      "file": "carpet_ste_flags.webp",
+      "bundle": "assets/aa/Android/carpet_ste_flags_assets_all.bundle",
+      "texture": "Carpet_STE_Flags_TD_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_ste_flight",
+      "name": "Cloud Cruise",
+      "file": "carpet_ste_flight.webp",
+      "bundle": "assets/aa/Android/carpet_ste_flight_assets_all.bundle",
+      "texture": "Carpet_STE_Flight_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_ste_mechanism",
+      "name": "Tantius Luxury",
+      "file": "carpet_ste_mechanism.webp",
+      "bundle": "assets/aa/Android/carpet_ste_mechanism_assets_all.bundle",
+      "texture": "Carpet_STE_Mechanism_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_ste_paperplane",
+      "name": "Hope Flies Far",
+      "file": "carpet_ste_paperplane.webp",
+      "bundle": "assets/aa/Android/carpet_ste_paperplane_assets_all.bundle",
+      "texture": "Carpet_STE_PaperPlane_TD_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_ste_stellesisters",
+      "name": "ste stellesisters",
+      "file": "carpet_ste_stellesisters.webp",
+      "bundle": "assets/aa/Android/carpet_ste_stellesisters_assets_all.bundle",
+      "texture": "Carpet_STE_StelleSisters_D",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_ste_tools",
+      "name": "First Draft",
+      "file": "carpet_ste_tools.webp",
+      "bundle": "assets/aa/Android/carpet_ste_tools_assets_all.bundle",
+      "texture": "Carpet_STE_Tools_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_ste_wings",
+      "name": "New Designs",
+      "file": "carpet_ste_wings.webp",
+      "bundle": "assets/aa/Android/carpet_ste_wings_assets_all.bundle",
+      "texture": "Carpet_STE_Wings_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_stl_01",
+      "name": "STL D",
+      "file": "carpet_stl_01.webp",
+      "bundle": "assets/aa/Android/carpet_stl_01_assets_all.bundle",
+      "texture": "Carpet_STL_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_stl_02",
+      "name": "STL 2 D",
+      "file": "carpet_stl_02.webp",
+      "bundle": "assets/aa/Android/carpet_stl_02_assets_all.bundle",
+      "texture": "Carpet_STL_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_summer-rnd",
+      "name": "Edin Summer",
+      "file": "carpet_summer-rnd.webp",
+      "bundle": "assets/aa/Android/carpet_summer-rnd_assets_all.bundle",
+      "texture": "Carpet_Summer-RND_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_sunsetweave",
+      "name": "Sunset Weave",
+      "file": "carpet_sunsetweave.webp",
+      "bundle": "assets/aa/Android/carpet_sunsetweave_assets_all.bundle",
+      "texture": "Carpet_SunsetWeave_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_thedragons",
+      "name": "Street Art",
+      "file": "carpet_thedragons.webp",
+      "bundle": "assets/aa/Android/carpet_thedragons_assets_all.bundle",
+      "texture": "Carpet_TheDragons_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_tournament_steampunk",
+      "name": "Tournament Steampunk",
+      "file": "carpet_tournament_steampunk.webp",
+      "bundle": "assets/aa/Android/carpet_tournament_steampunk_assets_all.bundle",
+      "texture": "Carpet_Tournament_Steampunk_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_tournament_tempo",
+      "name": "Piggle Competitor",
+      "file": "carpet_tournament_tempo.webp",
+      "bundle": "assets/aa/Android/carpet_tournament_tempo_assets_all.bundle",
+      "texture": "Carpet_Tournament_Tempo_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_upgrade_01",
+      "name": "Digital Hopes",
+      "file": "carpet_upgrade_01.webp",
+      "bundle": "assets/aa/Android/carpet_upgrade_01_assets_all.bundle",
+      "texture": "Carpet_Upgrade_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_upgrade_02",
+      "name": "Machine Dreams",
+      "file": "carpet_upgrade_02.webp",
+      "bundle": "assets/aa/Android/carpet_upgrade_02_assets_all.bundle",
+      "texture": "Carpet_Upgrade_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_van_01",
+      "name": "House Korxena",
+      "file": "carpet_van_01.webp",
+      "bundle": "assets/aa/Android/carpet_van_01_assets_all.bundle",
+      "texture": "Carpet_VAN_01_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_van_02",
+      "name": "Crimson Storm",
+      "file": "carpet_van_02.webp",
+      "bundle": "assets/aa/Android/carpet_van_02_assets_all.bundle",
+      "texture": "Carpet_VAN_02_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_visionsofwar",
+      "name": "Visions Of War",
+      "file": "carpet_visionsofwar.webp",
+      "bundle": "assets/aa/Android/carpet_visionsofwar_assets_all.bundle",
+      "texture": "Carpet_VisionsOfWar_TD",
+      "aspect": 4.853824571099127
+    },
+    {
+      "id": "carpet_winter_01",
+      "name": "winter RND01 D",
+      "file": "carpet_winter_01.webp",
+      "bundle": "assets/aa/Android/carpet_winter_01_assets_all.bundle",
+      "texture": "Carpet_Winter_01_TD",
+      "aspect": 4.853824571099127
+    }
+  ],
+  "skills": {
+    "legendary": {
+      "width": 1.325143694,
+      "height": 1.246090054,
+      "aspect": 1.0634413538140641,
+      "mesh": "SkillFrame_Legendary_SM",
+      "texture": "Skill_Frame_Token_Legendary_D",
+      "bundle": "assets/aa/Android/skills_assets_all.bundle"
+    },
+    "silver": {
+      "width": 1.235514522,
+      "height": 1.04434812,
+      "aspect": 1.183048543238628,
+      "mesh": "SkillFrame_Silver_SM",
+      "texture": "SkillFrame_Token_TD",
+      "bundle": "assets/aa/Android/skills_assets_all.bundle"
+    },
+    "diamond": {
+      "width": 1.264313818,
+      "height": 1.228987098,
+      "aspect": 1.0287445816619956,
+      "mesh": "SkillFrame_Diamond_SM",
+      "texture": "SkillFrame_Token_TD",
+      "bundle": "assets/aa/Android/skills_assets_all.bundle"
+    },
+    "bronze": {
+      "width": 1.053616046,
+      "height": 1.05362451,
+      "aspect": 0.9999919667776141,
+      "mesh": "SkillFrame_Bronze_SM",
+      "texture": "SkillFrame_Token_TD",
+      "bundle": "assets/aa/Android/skills_assets_all.bundle"
+    },
+    "gold": {
+      "width": 1.044248938,
+      "height": 1.038872958,
+      "aspect": 1.005174819460456,
+      "mesh": "SkillFrame_Gold_SM",
+      "texture": "SkillFrame_Token_TD",
+      "bundle": "assets/aa/Android/skills_assets_all.bundle"
+    }
+  },
+  "sprites": {
+    "ornate-button": {
+      "sprite": "Button_Ornate_Active_TUI",
+      "asset_file": "CAB-760a9ba069cbc2b57828745f9a8cd58d",
+      "pixels": [
+        512,
+        121
+      ],
+      "border": {
+        "x": 115.0,
+        "y": 0.0,
+        "z": 115.0,
+        "w": 0.0
+      }
+    },
+    "back-icon": {
+      "sprite": "Icon_RingBtn_Back_TUI",
+      "asset_file": "CAB-4d65a8917b15ea386d0479c21cefa1a0",
+      "pixels": [
+        49,
+        58
+      ],
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      }
+    },
+    "gear-icon": {
+      "sprite": "Icon_RingBtn_Gear_TUI",
+      "asset_file": "CAB-f6a7b667e1b741b9f20f4fbb0572e499",
+      "pixels": [
+        61,
+        59
+      ],
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      }
+    },
+    "star-icon": {
+      "sprite": "Icon_Menu_Favorite_TUI",
+      "asset_file": "CAB-f2d1bd28b8d95545ecd5e3519f3fa062",
+      "pixels": [
+        32,
+        28
+      ],
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      }
+    },
+    "list-icon": {
+      "sprite": "Icon_Menu_List_TUI",
+      "asset_file": "CAB-10065994d1ba9e007c5202d07c6f22e7",
+      "pixels": [
+        26,
+        23
+      ],
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      }
+    },
+    "watch-icon": {
+      "sprite": "Icon_Menu_Watch_TUI",
+      "asset_file": "CAB-96679edb29873869d7b99ba149d98f06",
+      "pixels": [
+        32,
+        27
+      ],
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      }
+    },
+    "button-selected": {
+      "sprite": "Btn_Rct_Selected_TUI",
+      "asset_file": "CAB-c2f0abd4be30ea24875503ff0d17877a",
+      "pixels": [
+        113,
+        128
+      ],
+      "border": {
+        "x": 31.053436279296875,
+        "y": 38.054054260253906,
+        "z": 31.053436279296875,
+        "w": 38.054054260253906
+      }
+    },
+    "button-fill": {
+      "sprite": "Btn_Rct_Brown_S_Center_Active_TUI",
+      "asset_file": "CAB-c2f0abd4be30ea24875503ff0d17877a",
+      "pixels": [
+        256,
+        71
+      ],
+      "border": {
+        "x": 11.937823295593262,
+        "y": 14.598130226135254,
+        "z": 11.937823295593262,
+        "w": 14.598130226135254
+      }
+    },
+    "button-frame": {
+      "sprite": "Btn_Rct_Frame_S_TUI",
+      "asset_file": "CAB-c2f0abd4be30ea24875503ff0d17877a",
+      "pixels": [
+        256,
+        77
+      ],
+      "border": {
+        "x": 23.03999900817871,
+        "y": 28.233333587646484,
+        "z": 23.03999900817871,
+        "w": 28.233333587646484
+      }
+    },
+    "round-fill": {
+      "sprite": "Btn_Rnd_Center_Filled_Active_TUI",
+      "asset_file": "CAB-aaaed22e6a26c5fae39cdfa1b9c54999",
+      "pixels": [
+        64,
+        64
+      ],
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      }
+    },
+    "round-frame": {
+      "sprite": "Btn_Rnd_Frame_TUI",
+      "asset_file": "CAB-aaaed22e6a26c5fae39cdfa1b9c54999",
+      "pixels": [
+        128,
+        116
+      ],
+      "border": {
+        "x": 64.0,
+        "y": 0.0,
+        "z": 64.0,
+        "w": 0.0
+      }
+    },
+    "tab": {
+      "sprite": "Btn_Tab_Nav_Active_TUI",
+      "asset_file": "CAB-5c6f72162902760b47da45d8c4fbb040",
+      "pixels": [
+        423,
+        140
+      ],
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 101.0526351928711,
+        "w": 0.0
+      }
+    },
+    "tab-selected": {
+      "sprite": "Btn_Tab_Nav_Selected_TUI",
+      "asset_file": "CAB-5c6f72162902760b47da45d8c4fbb040",
+      "pixels": [
+        512,
+        257
+      ],
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      }
+    },
+    "checkbox": {
+      "sprite": "Form_Checkbox_Frame_TUI",
+      "asset_file": "CAB-c04429213d4d8d9aa63b03004c5cf14f",
+      "pixels": [
+        64,
+        64
+      ],
+      "border": {
+        "x": 15.483870506286621,
+        "y": 15.483870506286621,
+        "z": 15.483870506286621,
+        "w": 15.483870506286621
+      }
+    },
+    "row-frame": {
+      "sprite": "Tooltip_Bronze_Frame_Active_TUI",
+      "asset_file": "CAB-c04429213d4d8d9aa63b03004c5cf14f",
+      "pixels": [
+        1024,
+        393
+      ],
+      "border": {
+        "x": 70.94688415527344,
+        "y": 71.02409362792969,
+        "z": 70.94688415527344,
+        "w": 71.02409362792969
+      }
+    },
+    "panel-frame": {
+      "sprite": "Frame_General_TUI",
+      "asset_file": "CAB-c04429213d4d8d9aa63b03004c5cf14f",
+      "pixels": [
+        256,
+        128
+      ],
+      "border": {
+        "x": 64.0,
+        "y": 48.0,
+        "z": 64.0,
+        "w": 48.0
+      }
+    },
+    "check": {
+      "sprite": "Form_Checkbox_Check_TUI",
+      "asset_file": "CAB-c04429213d4d8d9aa63b03004c5cf14f",
+      "pixels": [
+        64,
+        62
+      ],
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      }
+    },
+    "divider": {
+      "sprite": "Divider_Horz_01_TUI",
+      "asset_file": "CAB-c04429213d4d8d9aa63b03004c5cf14f",
+      "pixels": [
+        512,
+        34
+      ],
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      }
+    },
+    "arrow-icon": {
+      "sprite": "Frame_Pointer_Arrow_TUI",
+      "asset_file": "CAB-c04429213d4d8d9aa63b03004c5cf14f",
+      "pixels": [
+        60,
+        64
+      ],
+      "border": {
+        "x": 230.0,
+        "y": 0.0,
+        "z": 230.0,
+        "w": 0.0
+      }
+    },
+    "follow-banner": {
+      "sprite": "PlayerProfile_Leaderboard_ItemBanner_TUI",
+      "asset_file": "CAB-c04429213d4d8d9aa63b03004c5cf14f",
+      "pixels": [
+        256,
+        198
+      ],
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      }
+    }
+  },
+  "fonts": {
+    "game-heading": {
+      "name": "NotoSerifSC-SemiBold",
+      "bundle": "assets/aa/Android/fonts_cn_assets_all.bundle"
+    }
+  },
+  "skipped": []
+}

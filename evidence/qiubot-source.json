@@ -1,0 +1,19 @@
+{
+  "site": "https://bazaarqiubot.com/runs",
+  "api": "https://bazaarqiubot.com/api/runs",
+  "repository": "https://github.com/CodeHuba/bazaarqiubot",
+  "captured_at": "2026-10-22T13:21:43.988869+00:00",
+  "query": {
+    "hero": "Karnok",
+    "days": 7,
+    "min_wins": 10,
+    "page": 1
+  },
+  "scope": {
+    "phase": "19.2",
+    "season": 19
+  },
+  "total": 1499,
+  "latest_run": "2026-10-22T07:53:52.565+00:00",
+  "notes": "Read-only current-season paginated records; five runs per page. No aggregate win-rate is inferred from these ten-win-only records."
+}
